@@ -1,8 +1,3 @@
 <resources>
-    <string name="app_name">Bet on It</string>
-    <string name="bet_on_it_arbitrator">Bet on it Arbitrator</string>
-    <string name="login">Login</string>
-    <string name="password">password</string>
-    <string name="username">username</string>
-    <string name="loginbtn">login</string>
+    <string name="app_name">Arbitration Case</string>
 </resources>
