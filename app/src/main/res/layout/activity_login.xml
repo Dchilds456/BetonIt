@@ -9,29 +9,6 @@
     android:background="#EAEBEB"
     tools:context=".LoginActivity">
 
-    <View
-        android:id="@+id/passwordText"
-        android:layout_width="276dp"
-        android:layout_height="72dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="70dp"
-        android:layout_marginTop="471dp"
-        android:background="#FFFFFF" />
-
-    <TextView
-        android:id="@+id/enterPasscode"
-        android:layout_width="113dp"
-        android:layout_height="40dp"
-        android:layout_alignStart="@+id/passwordText"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginBottom="322dp"
-        android:fontFamily="@font/roboto_bold"
-        android:hint="@string/password"
-        android:textSize="20sp" />
-
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="264dp"
@@ -39,7 +16,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="86dp"
+        android:layout_marginStart="155dp"
         android:layout_marginTop="177dp"
         android:fontFamily="@font/roboto_bold"
         android:text="@string/bet_on_it_arbitrator"
@@ -71,41 +48,44 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="308dp" />
 
-    <View
-        android:id="@+id/UsernameText"
-        android:layout_width="280dp"
-        android:layout_height="70dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginTop="363dp"
-        android:background="#FFFFFF" />
-
-    <TextView
+    <EditText
         android:id="@+id/enterUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/UsernameText"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="389dp"
-        android:fontFamily="@font/roboto_bold"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="315dp"
+        android:backgroundTint="@android:color/background_light"
+        android:ems="10"
         android:hint="@string/username"
-        android:textSize="20sp" />
+        android:inputType="textPersonName"
+        tools:text="@string/username" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="243dp"
+        android:backgroundTint="@android:color/background_light"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName"
+        tools:text="@string/password" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/passwordText"
-        android:layout_alignParentStart="false"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="-8dp"
-        android:layout_marginTop="155dp"
-        android:layout_marginEnd="-176dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="135dp"
         android:background="#FFEB3B"
-        android:text="@string/loginbtn" />
+        android:clickable="true"
+        android:text="Login" />
 </RelativeLayout>
