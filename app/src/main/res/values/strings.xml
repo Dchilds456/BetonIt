@@ -1,3 +1,4 @@
+
 <resources>
     <string name="app_name">Bet on It</string>
     <string name="bet_on_it_arbitrator">Bet on it Arbitrator</string>
@@ -9,3 +10,8 @@
     <string name="back4app_app_id">gqkMRVyLQHCtd3ogpIy0jhYFzXoSWpbpBGgKexEd</string>
     <string name="back4app_client_key">XmdWiurq3ZXwLfsh54SG1uWrNPBd5qbCZGk2rytm</string>
 </resources>
+=======
+<resources>
+    <string name="app_name">Arbitration Case</string>
+</resources>
+

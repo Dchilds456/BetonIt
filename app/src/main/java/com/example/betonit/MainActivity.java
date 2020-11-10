@@ -16,6 +16,8 @@ import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
 
+import com.example.arbitrationcase.R;
+
 public class MainActivity extends AppCompatActivity {
 
 

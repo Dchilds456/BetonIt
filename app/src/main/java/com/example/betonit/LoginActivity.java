@@ -14,6 +14,8 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
+import com.example.arbitrationcase.R;
+
 public class LoginActivity extends AppCompatActivity {
     public static final String TAG = "LoginActivity";
 
